@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+table{
+    font-family: Arial;
+    border-collapse: collapse;
+    margin: 150px auto;
+    
+}
+table th, table td{
+    border: 2px solid rgb(0, 7, 3);
+    padding: 20px;
+    
+    text-align: center;
+    color: black;
+}
+table tr:nth-child(2n){
+    background-color: rgb(237, 252, 151);
+}
+table tr:hover{
+    background-color: rgb(184, 195, 196);
+}
+table td{
+    text-align: center;
+}
+div{ top:0%;
+    position: fixed;
+}
+   button{
+       margin: 1px;
+       padding: 10px;
+       border-radius: 10px;
+       color: rgb(187, 61, 103);
+   } 
+   button:hover{
+       font-size: 20px;
+       background-color: lightblue;
+       color: rgb(119, 0, 255);
+   }
